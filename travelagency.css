@@ -1,0 +1,684 @@
+/* Custom styles for the navbar */
+.navbar {
+    background: linear-gradient(135deg, #FF8A00, #E52E71);
+  }
+
+  .navbar-brand img {
+    width: 50px; /* Adjust the logo size as needed */
+  }
+
+  .navbar-nav .nav-link {
+    color: #FFF;
+    font-weight: 500;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #FFC72C;
+  }
+
+  /* booking */
+  body {
+    background-color: #f7f7f7;
+  }
+
+  .booking-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .booking-form h2 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #E52E71;
+  }
+
+  .form-control {
+    border-color: #E52E71;
+  }
+
+  .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(229, 46, 113, 0.25);
+  }
+
+  .btn-primary {
+    background-color: #FF8A00;
+    border-color: #FF8A00;
+  }
+
+  .btn-primary:hover {
+    background-color: #E52E71;
+    border-color: #E52E71;
+  }
+
+  /* modal styling */
+  .modal-content {
+    background: linear-gradient(135deg, #FF8A00, #E52E71);
+    color: #FFF;
+    border-radius: 10px;
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .modal-title {
+    color: #FFF;
+  }
+
+  .modal-body {
+    text-align: center;
+  }
+
+  .modal-footer {
+    border-top: none;
+  }
+
+  .btn-modal {
+    background-color: #FFF;
+    color: #E52E71;
+    border-color: #FFF;
+    border-radius: 5px;
+    padding: 8px 20px;
+  }
+
+  .btn-modal:hover {
+    background-color: #E52E71;
+    color: #FFF;
+    border-color: #E52E71;
+  }
+
+  /* featured destinations */
+  .featured-section {
+    background-color: #E52E71;
+    color: black;
+    padding: 60px 0;
+  }
+
+  .featured-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+
+  .btn-explore {
+    background-color: #FF8A00;
+    color: #FFF;
+    border-color: #FF8A00;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-top: 15px;
+  }
+
+  .btn-explore:hover {
+    background-color: #E52E71;
+    border-color: #E52E71;
+  }
+
+  /* testimonial section */
+  .testimonial-section {
+    background-color: #FFF;
+    color: #000;
+    padding: 60px 0;
+  }
+
+  .testimonial-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E52E71;
+  }
+
+  .testimonial-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    background-color: #F7F7F7;
+    margin: 10px;
+  }
+
+  .testimonial-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #E52E71;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #E52E71;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -15px;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3e%3cpath d='M4 0L0 4h1.5L4 1.5 6.5 4H8L4 0z'/%3e%3c/svg%3e");
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3e%3cpath d='M4 0L0 4h1.5L4 1.5 6.5 4H8L4 0z' transform='rotate(180 4 4)'/%3e%3c/svg%3e");
+  }
+
+  /* promotion section */
+  .promotions-section {
+    background-color: #F7F7F7;
+    color: #000;
+    padding: 60px 0;
+  }
+
+  .promotions-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E52E71;
+  }
+
+  .promotion-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF;
+    margin: 10px;
+  }
+
+  .promotion-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E52E71;
+    margin-bottom: 10px;
+  }
+
+  .promotion-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .promotion-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .promotion-button {
+    background-color: #FF8A00;
+    color: #FFF;
+    border-color: #FF8A00;
+    border-radius: 5px;
+    padding: 8px 20px;
+  }
+
+  .promotion-button:hover {
+    background-color: #E52E71;
+    border-color: #E52E71;
+  }
+
+  /* gallery section */
+  .gallery-section {
+    background-color: #FFF;
+    color: #000;
+    padding: 60px 0;
+  }
+
+  .gallery-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E52E71;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+  }
+
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item img:hover {
+    transform: scale(1.05);
+  }
+
+  /* adventure section */
+  .adventure-tours-section {
+    background-color: #F7F7F7;
+    color: #000;
+    padding: 60px 0;
+  }
+
+  .adventure-tours-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E52E71;
+  }
+
+  .card-carousel {
+    overflow: hidden;
+  }
+
+  .card-carousel .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .card-carousel .carousel-item {
+    flex: 0 0 300px;
+    margin: 10px;
+  }
+
+  .card-carousel .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF;
+    height: 100%;
+  }
+
+  .card-carousel img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card-carousel h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E52E71;
+    margin-bottom: 10px;
+  }
+
+  .card-carousel p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .card-carousel .btn-explore {
+    background-color: #FF8A00;
+    color: #FFF;
+    border-color: #FF8A00;
+    border-radius: 5px;
+    padding: 8px 20px;
+  }
+
+  .card-carousel .btn-explore:hover {
+    background-color: #E52E71;
+    border-color: #E52E71;
+  }
+  /* travel blog section */
+  .travel-blog-section {
+    background-color: #FFF;
+    color: #000;
+    padding: 60px 0;
+  }
+
+  .travel-blog-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E52E71;
+  }
+
+  .blog-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF;
+    margin: 10px;
+  }
+
+  .blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .blog-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E52E71;
+    margin-bottom: 10px;
+  }
+
+  .blog-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .blog-card .btn-read-more {
+    background-color: #FF8A00;
+    color: #FFF;
+    border-color: #FF8A00;
+    border-radius: 5px;
+    padding: 8px 20px;
+  }
+
+  .blog-card .btn-read-more:hover {
+    background-color: #E52E71;
+    border-color: #E52E71;
+  }
+/* Destination-highlight section */
+.destination-highlights-section {
+    background-color: #F7F7F7;
+    color: #000;
+    padding: 60px 0;
+  }
+
+  .destination-highlights-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E52E71;
+  }
+
+  .highlight-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF;
+    margin: 10px;
+  }
+
+  .highlight-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .highlight-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E52E71;
+    margin-bottom: 10px;
+  }
+
+  .highlight-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .highlight-card .btn-explore {
+    background-color: #FF8A00;
+    color: #FFF;
+    border-color: #FF8A00;
+    border-radius: 5px;
+    padding: 8px 20px;
+  }
+
+  .highlight-card .btn-explore:hover {
+    background-color: #E52E71;
+    border-color: #E52E71;
+  }
+
+  /* about us section */
+  .about-us-section {
+    background-color: #FFF;
+    color: #000;
+    padding: 60px 0;
+  }
+
+  .about-us-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E52E71;
+  }
+
+  .about-us-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .about-us-content p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .about-us-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .team-member {
+    max-width: 250px;
+    margin: 15px;
+    text-align: center;
+  }
+
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .team-member h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E52E71;
+    margin-bottom: 5px;
+  }
+
+  .team-member p {
+    font-size: 16px;
+    color: #777;
+  }
+
+  /* another testimonial */
+  .testimonials-section {
+    background-color: #F7F7F7;
+    color: #000;
+    padding: 60px 0;
+  }
+
+  .testimonials-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E52E71;
+  }
+
+  .testimonial {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .testimonial h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E52E71;
+    margin-bottom: 5px;
+  }
+
+  .testimonial p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* contact us section */
+  .contact-us-section {
+    background-color: #F7F7F7;
+    color: #000;
+    padding: 60px 0;
+  }
+
+  .contact-us-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E52E71;
+  }
+
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+
+  .form-group button {
+    background-color: #E52E71;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .form-group button:hover {
+    background-color: #28241f;
+  }
+
+  /* newsletter added */
+  .subscribe-section {
+      background-color: #E52E71;
+      color: #FFF;
+      padding: 60px 0;
+    }
+
+    .subscribe-heading {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .subscribe-form {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #news-btn{
+      background-color: #FF8A00;;
+    }
+    /* footer */
+    .footer {
+        background-color: #E52E71;
+        color: #FFF;
+        padding: 40px 0;
+        text-align: center;
+      }
+  
+      .footer a {
+        color: #FFF;
+        text-decoration: none;
+      }
+  
+      .footer a:hover {
+        color: #FF8A00;
+      }
